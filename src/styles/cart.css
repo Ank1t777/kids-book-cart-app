@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.cart--box, .cart--total {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.cart--image img {
+    width: 12.5em;
+    height: 12.5em;
+}
+
+.cart-items-details {
+    padding: 3.5em 0 0 1.5em;
+}
+
+.cart-items-details button {
+    margin-top: 1em;
+    padding: 4.5px;
+    width: 3em;
+}
+
+.cart-items-details button:hover {
+    cursor: pointer;
+}
+
+.cart--empty {
+    text-align: center;
+    margin: 2em;
+}
