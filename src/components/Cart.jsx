@@ -52,7 +52,7 @@ const removeFromCart = (item) => {
       }
         <div className='cart-total'>
             {price === 0.00 ? <h1 className='cart--empty'>Oops! your cart is empty <i class="fa-regular fa-face-frown"></i></h1> 
-            : <h3 className='cart--total'>Total Price: ${price.toFixed(2)}</h3>}
+            : <h3 className='cart--total'>Total Price:  ₹{price.toFixed(2)}</h3>}
         </div>
     </div>
   )
